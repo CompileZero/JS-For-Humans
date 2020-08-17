@@ -1,6 +1,6 @@
 # JS For Humans
 
-# Yet Another JavaScript Book?
+## Yet Another JavaScript Book?
 
 I know, I know. Holding this (digital) book in your hand right now, you‘re
 probably wondering, why do we need yet another book on JavaScript? Aren‘t there
@@ -23,11 +23,7 @@ I ran into terms like Object-Oriented, Multi Paradigm, Functional, Hoisting, Pol
 
 I couldn’t find a single resource, that was directed at beginners, explained concepts in simple language, and then also took care of the advanced JavaScript concepts.
 
-> *I thought maybe it’s time for yet another JavaScript Book.*
-
-Start working on the basics
-
-In the beginning
+> ### *I thought maybe it’s time for yet another JavaScript Book.*
 
 
 ### `What is this all about?`
