@@ -25,7 +25,7 @@ I couldn’t find a single resource, that was directed at beginners, explained c
 
 > ### *I thought maybe it’s time for yet another JavaScript Book.*
 
-—
+***
 
 ### `What is this all about?`
 
