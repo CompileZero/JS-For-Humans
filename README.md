@@ -6,12 +6,12 @@ I know, I know. Holding this (digital) book in your hand right now, you‘re
 probably wondering, why do we need yet another book on JavaScript? Aren‘t there
 already too many?
 
-Don‘t worry, I‘ll answer the question. But before that, let‘s take a quick
+Don‘t worry, I‘ll answer the question. But before that, let’s take a quick
 rewind of my dreadful JavaScript Journey.
 
 Well, I had a very modest beginning with JavaScript. For days on end, I couldn‘t
 understand where I exactly needed to use JavaScript. Learning HTML & CSS was
-already a herculean task for me. One more language just to create a lame
+already a Herculean task for me. One more language just to create a lame
 website?
 
 I battled with the initial JavaScript hiccups (Data Types, Variables,
@@ -19,7 +19,7 @@ Conditions, Loops etc.).
 
 Then those hiccups started turning into coughs. 
 
-I ran into terms like Object-Oriented, Multi Paradigm, Functional, Hoisting, Polymorphism etc etc, and it left my head spinning. (Trust me, it still does today). But the real problem wasn’t just that.
+I ran into terms like Object-Oriented, Multi Paradigm, Functional, Hoisting, Polymorphism etc, and it left my head spinning. (Trust me, it still does today). But the real problem wasn’t just that.
 
 I couldn’t find a single resource, that was directed at beginners, explained concepts in simple language, and then also took care of the advanced JavaScript concepts.
 
@@ -29,14 +29,14 @@ I couldn’t find a single resource, that was directed at beginners, explained c
 
 ### `What is this all about?`
 
-I have come across many people who have a certain hatred towards programming.
+Many people have a certain hatred towards programming.
 This hatred arises out of the fear of the unknown.
 
-10-20 Known Programming Languages, Thousands of un-understandable sentences, wrapping
+10-20 Known Programming Languages, Thousands of non-understandable sentences, wrapping
 your head around 100-200 Basic Concepts in Computer Science.
 
 And then, just like that, some new technology comes around, and whatever was
-learnt becomes redundant. Right?
+learned becomes redundant. Right?
 
 Absolutely Wrong.
 
@@ -50,7 +50,7 @@ This said, this book is solely focused on :
 
 ## Who is this book for?
 
-#### This book assumes that you are atleast familiar with concepts of HTML & CSS (You wouldn’t have come across otherwise). Anyways, if by chance you don’t know HTML & CSS, I would recommend you start by learning those concepts
+#### This book assumes that you are at least familiar with concepts of HTML & CSS (You wouldn’t have come across otherwise). Anyways, if by chance you don’t know HTML & CSS, I would recommend you start by learning those concepts
 
 <!-- TODO: Add HTML CSS Links Here-->
 
