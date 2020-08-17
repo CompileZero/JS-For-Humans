@@ -7,7 +7,7 @@ probably wondering, why do we need yet another book on JavaScript? Aren‘t ther
 already too many?
 
 Don‘t worry, I‘ll answer the question. But before that, let‘s take a quick
-rewind of how my dreadful JavaScript Journey.
+rewind of my dreadful JavaScript Journey.
 
 Well, I had a very modest beginning with JavaScript. For days on end, I couldn‘t
 understand where I exactly needed to use JavaScript. Learning HTML & CSS was
@@ -15,8 +15,15 @@ already a herculean task for me. One more language just to create a lame
 website?
 
 I battled with the initial JavaScript hiccups (Data Types, Variables,
-Conditions, Loops etc.). Then those hiccups started turning into coughs. The
-very important
+Conditions, Loops etc.). 
+
+Then those hiccups started turning into coughs. 
+
+I ran into terms like Object-Oriented, Multi Paradigm, Functional, Hoisting, Polymorphism etc etc, and it left my head spinning. (Trust me, it still does today). But the real problem wasn’t just that.
+
+I couldn’t find a single resource, that was directed at beginners, explained concepts in simple language, and then also took care of the advanced JavaScript concepts.
+
+> *I thought maybe it’s time for yet another JavaScript Book.*
 
 Start working on the basics
 
