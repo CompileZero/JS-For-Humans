@@ -55,6 +55,14 @@ This said, this book is solely focused on :
 ```diff
 ! ##### P.S.: If you‘re just looking out to become a backend developer, then maybe you could do fine just learning JavaScript (although I don‘t recommend this at all. Get some hands-on with HTML & CSS. They are quite interesting :P)
 ```
+<style
+  type="text/css">
+h1 {color:red;}
+
+p {color:blue;}
+</style>
+okay
+
 <!-- TODO: Add HTML CSS Links Here-->
 
 1. Beginner Devs:
