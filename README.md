@@ -1,29 +1,25 @@
 # JS For Humans
 
-# `What is this all about?`
+### `What is this all about?`
 
 I have come across many people who have a certain hatred towards programming.
 This hatred arises out of the fear of the unknown.
 
-10-20 Programming Languages, Thousands of un-understandable sentences, wrapping
-your head around 100-200 Concepts (Basics) in Computer Science.
+10-20 Known Programming Languages, Thousands of un-understandable sentences, wrapping
+your head around 100-200 Basic Concepts in Computer Science.
 
 And then, just like that, some new technology comes around, and whatever was
 learnt becomes redundant. Right?
 
 Absolutely Wrong.
 
-Let‘s address all the issues that you have right now:
+The book begins by addressing this and many other issues, that people have when they start programming.
 
-1. Programming is a skill that works like a tool to solve your problems.
-   Programming is far from a
-
-> Q: How to use this book?
-
-A: Like Always, start with
-
-1. Why to Learn JS?
-
+This said, this book is solely focused on :
+1. learning JavaScript
+2. Mastering the fundamentals of how JavaScript works
+3. Learning the Advanced Concepts
+4. Becoming one of the top JS Developers in the world.
 
 ## Who is this book for?
 
@@ -32,7 +28,7 @@ A: Like Always, start with
       just in school/college) and want to learn web development.
    2. Devs Who have some basic understanding of HTML & CSS, and wan‘t to start
       working on JS, but find it confusing.
-   3.
+      
 2. Intermediate Devs:
    1. Developers who are familiar with Basic JavaScript Concepts, and have used
       their coding skills to create some basic Interactive Web Pages.
