@@ -1,14 +1,10 @@
-# Table of Contents
-- [Table of Contents](#table-of-contents)
-- [What is JavaScript?](#what-is-javascript)
-  - [The definition:](#the-definition)
-- [Why is it called a “Scripting Language” ?](#why-is-it-called-a-scripting-language-)
-- [Why the name JavaScript?](#why-the-name-javascript)
-- [What to do from here?](#what-to-do-from-here)
+- [1. Where is JavaScript used anyway?](#1-where-is-javascript-used-anyway)
+  - [1.1. The definition:](#11-the-definition)
+- [2. Why is it called a “Scripting Language” ?](#2-why-is-it-called-a-scripting-language-)
+- [3. Why the name JavaScript?](#3-why-the-name-javascript)
+- [4. What to do from here?](#4-what-to-do-from-here)
 
-# What is JavaScript?
-
-Before answering this question, lets talk about where JS is used?
+# 1. Where is JavaScript used anyway?
 
 I‘m sure you‘ve seen a Create-Account Page: ![Login UI Page](./media/UI_1.jpg)
 
@@ -36,8 +32,7 @@ Chrome for example):
    3. The text-color is gray
    4. And many more attributes like spacing, width and height, margin, padding
       etc. of the components.
-3. Finally, there is another script (PS: It’s JavaScript) that tells the
-   browser:
+3. Finally, there is another piece of code (JavaScript) that tells the browser:
    1. What to do when the user clicks on “Agency” Toggle Button
    2. Which error message to display when all the text-fields are not filled
       correctly.
@@ -45,7 +40,7 @@ Chrome for example):
    4. And finally, what action(s) to take when “Create Account” button is
       clicked.
 
-## The definition:
+## 1.1. The definition:
 
 JavaScript® (often shortened to JS) is a lightweight, interpreted, or
 just-in-time compiled object-oriented language with first-class functions. While
@@ -67,8 +62,8 @@ Simply Put, JavaScript was initially created to make web-pages alive.
 
 > 🧩 Explanation:
 
-# Why is it called a “Scripting Language” ?
+# 2. Why is it called a “Scripting Language” ?
 
-# Why the name JavaScript?
+# 3. Why the name JavaScript?
 
-# What to do from here?
+# 4. What to do from here?
