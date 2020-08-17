@@ -52,16 +52,9 @@ This said, this book is solely focused on :
 
 #### This book assumes that you are at least familiar with concepts of HTML & CSS (You wouldn’t have come across otherwise). Anyways, if by chance you don’t know HTML & CSS, I would recommend you start by learning those concepts
 
-```diff
-! ##### P.S.: If you‘re just looking out to become a backend developer, then maybe you could do fine just learning JavaScript (although I don‘t recommend this at all. Get some hands-on with HTML & CSS. They are quite interesting :P)
-```
-<style
-  type="text/css">
-h1 {color:red;}
 
-p {color:blue;}
-</style>
-okay
+##### **P.S.: If you‘re just looking out to become a backend developer, then maybe you could do fine just learning JavaScript (although I don‘t recommend this at all. Get some hands-on with HTML & CSS. They are quite interesting :P)**
+
 
 <!-- TODO: Add HTML CSS Links Here-->
 
