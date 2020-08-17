@@ -40,6 +40,17 @@ Chrome for example):
    4. And finally, what action(s) to take when “Create Account” button is
       clicked.
 
+> ### 🎐 Analogy
+>
+> If a web-page is compared to a human body:
+
+**HTML** is the skeletal system of the body. **CSS** is the muscles, skin, hair,
+(everything that makes the body attractive and not just a bunch bones stuck
+together.) Finally, **JavaScript** is the brain of the body. The skeletal system
+and muscles of the body may be amazing in themselves, but without the brain,
+they‘re of no use. The brain commands the body parts to function according to
+desired outcomes.
+
 ## 1.1. The definition:
 
 JavaScript® (often shortened to JS) is a lightweight, interpreted, or
