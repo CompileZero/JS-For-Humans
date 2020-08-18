@@ -1,5 +1,5 @@
 - [1. Where is JavaScript used anyway?](#1-where-is-javascript-used-anyway)
-  - [1.1. The definition:](#11-the-definition)
+  - [1.1 The definition:](#11-the-definition)
 - [2. Why is it called a “Scripting Language” ?](#2-why-is-it-called-a-scripting-language-)
 - [3. Why the name JavaScript?](#3-why-the-name-javascript)
 - [4. What to do from here?](#4-what-to-do-from-here)
@@ -42,16 +42,16 @@ Chrome for example):
 
 > ### 🎐 Analogy
 >
-> If a web-page is compared to a human body:
+> #### If a web-page is compared to a human body, then:
 
 **HTML** is the skeletal system of the body. **CSS** is the muscles, skin, hair,
-(everything that makes the body attractive and not just a bunch bones stuck
+(everything that makes the body attractive and not just a bunch of bones stuck
 together.) Finally, **JavaScript** is the brain of the body. The skeletal system
 and muscles of the body may be amazing in themselves, but without the brain,
 they‘re of no use. The brain commands the body parts to function according to
 desired outcomes.
 
-## 1.1. The definition:
+## 1.1 The definition:
 
 JavaScript® (often shortened to JS) is a lightweight, interpreted, or
 just-in-time compiled object-oriented language with first-class functions. While
