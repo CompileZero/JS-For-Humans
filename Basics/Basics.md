@@ -51,6 +51,37 @@ and muscles of the body may be amazing in themselves, but without the brain,
 they‘re of no use. The brain commands the body parts to function according to
 desired outcomes.
 
+# What is JavaScript?
+
+JavaScript was initially created to make web pages “alive” and interactive
+(having complex animations, clickable buttons, popup menus, etc.).
+
+They can be written right in a web page’s HTML and run automatically as the page
+loads.
+
+```html
+<html>
+  <head> </head>
+  <body>
+    <!-- Create a button, which shows on the HTML Page -->
+    <button type="button" onClick="firstFunction()">Click Me!</button>
+
+    <script>
+      // Function Definition of *firstFunction*
+      function firstFunction() {
+        alert("Hello World");
+      }
+    </script>
+  </body>
+</html>
+```
+
+The programs in this language are called scripts. Scripts are provided and
+executed as plain text. They don’t need special preparation or compilation to
+run.
+
+In this aspect, JavaScript is very different from another language called Java.
+
 ## 1.1 The definition:
 
 JavaScript® (often shortened to JS) is a lightweight, interpreted, or
@@ -68,8 +99,6 @@ Let’s go over all those terms one-by-one:
 
 Firstly, JS (From now on, I will be referring to JavaScript® as **JS** for
 simplicity) is a language that
-
-Simply Put, JavaScript was initially created to make web-pages alive.
 
 > 🧩 Explanation:
 
