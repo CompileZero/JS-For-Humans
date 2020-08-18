@@ -61,11 +61,14 @@ loads.
 
 ```html
 <html>
-  <head> </head>
+  <head>
+    <title>My First Page</title>
+  </head>
   <body>
     <!-- Create a button, which shows on the HTML Page -->
     <button type="button" onClick="firstFunction()">Click Me!</button>
 
+    <!-- Script tag tells HTML that there's a JavaScript Code here-->
     <script>
       // Function Definition of *firstFunction*
       function firstFunction() {
