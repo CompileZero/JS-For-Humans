@@ -109,4 +109,8 @@ simplicity) is a language that
 
 # 3. Why the name JavaScript?
 
+# What is ECMA Script, LiveScript?
+
+# What is V8 Engine? What is Spider-Monkey?
+
 # 4. What to do from here?
