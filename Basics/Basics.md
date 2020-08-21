@@ -124,7 +124,22 @@ Later on, Marc went about to co-found the company “Netscape”. And within a
 couple of years, The Netscape Navigator already had 80% of the browser market
 share.
 
-Marc realised that websites needed to be more dynamic and that just HTML and CSS could not suffise that. Developers needed a glue language to add liveness and interactivity to websites.
+Marc realised that websites needed to be more dynamic and that just HTML and CSS
+could not suffise that. Developers needed a glue language to add aliveness and
+interactivity to websites.
+
+A man named Brenden Eich was hired for the job.
+
+And 10 days later, JavaScript was born. Well, it wasn‘t called JavaScript back
+then, it was called “Mocha”.
+
+It had syntax like Java, First-Class functions like Scheme, Dynamic Typing like
+Lisp, and Prototypal Inheritance like Self.
+
+Mocha was eventually renamed to “LiveScript” and shipped with the first beta
+releases of Netscape 2.0. But then in December 1995, they renamed it to
+JavaScript, because it sounded like the cool lightweight cousin to the hottest
+programming language of the day, Java!
 
 In 1990, Sir Tim Berners Lee developed the first internet browser on a NeXT
 Computer System.
