@@ -124,6 +124,50 @@ interpreted.
 > code into a `.bin` file, which is then executed by the JVM (Java Virtual
 > Machine).
 
+JavaScript is not a programming language in strict sense. Instead, it is a
+scripting language because it uses the browser to do the dirty work. If you
+command an image to be replaced by another one, JavaScript tells the browser to
+go do it. Because the browser actually does the work, you only need to pull some
+strings by writing some relatively easy lines of code. That’s what makes
+JavaScript an easy language to start with.
+
+A scripting language, script language or extension language is a programming
+language that allows some control of a single or many software application(s).
+Languages chosen for scripting purposes are often much higher-level than the
+language used by the host application…
+
+In this case, the application is the browser. And about compilation:Scripts are
+often, but not always, interpreted from the source code or “semi-compiled” to
+bytecode which is interpreted, unlike the applications they are associated with,
+which are traditionally compiled to native machine code for the system on which
+they run
+
+But JS has matured considerably over the last few years, with advanced features
+such as lambdas, classes (for better or worse), destructuring, iterators and
+modules that bring its capabilities on par with most other modern languages. No
+longer restricted to the browser, is it also commonly found running standalone
+on the server under NodeJS.
+
+Javascript is now universally JIT compiled, either to bytecode (like Java and
+C#), or directly to machine code (like C and C++). And modern engines offer an
+optimization phase, similar to most traditional compiled languages.
+
+V8 (Chrome, Node) V8 compiles JavaScript directly to native machine code before
+executing it.
+
+Chakra Code (Edge) Chakra Core [can] do parallel JIT compilation…
+
+SpiderMonkey (Firefox) SpiderMonkey 38 includes a just-in-time compiler (JIT)
+that compiles JavaScript to machine code…
+
+The idea of a scripting language is one that instructs a host to carry out a
+series of actions (a lot like an actor reading from a script).
+
+Javascript tells a browser what to do and how to process things just the same
+way that a shell script, php, or any other scripting language does for their
+respective hosts. “the same way that a shell script, php, or any other scripting
+language does for their respective hosts "
+
 # A Briefer History of JavaScript
 
 # 3. Why the name JavaScript?
