@@ -98,6 +98,8 @@ programming) styles.
 
 ---
 
+### Explanation
+
 Let’s go over all those terms one-by-one:
 
 Firstly, JS (From now on, I will be referring to JavaScript® as **JS** for
@@ -106,6 +108,23 @@ simplicity) is a language that
 > 🧩 Explanation:
 
 # 2. Why is it called a “Scripting Language” ?
+
+JS is not interpreted like everybody thinks. Well, atleast not now.
+
+Let‘s go back in time. During the early days of JavaScript, it used to be
+interpreted.
+
+> 📚 Interpreted Language: A programming language, wherein code is executed line
+> by line. It‘s the exact opposite of a compiled language. Python is a famous
+> interpreted language.
+
+> 📚 Compiled Language: A programming Language, wherein code is converted into a
+> machine understandable code by a compiler and then executed by the system.
+> JAVA is a famous compiled language. Here the compiler converts the `.java`
+> code into a `.bin` file, which is then executed by the JVM (Java Virtual
+> Machine).
+
+# A Briefer History of JavaScript
 
 # 3. Why the name JavaScript?
 
