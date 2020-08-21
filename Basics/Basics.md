@@ -1,8 +1,13 @@
 - [1. Where is JavaScript used anyway?](#1-where-is-javascript-used-anyway)
-  - [1.1 The definition:](#11-the-definition)
-- [2. Why is it called a “Scripting Language” ?](#2-why-is-it-called-a-scripting-language-)
-- [3. Why the name JavaScript?](#3-why-the-name-javascript)
-- [4. What to do from here?](#4-what-to-do-from-here)
+- [2. What is JavaScript?](#2-what-is-javascript)
+  - [2.1. The definition:](#21-the-definition)
+    - [2.1.1. Explanation](#211-explanation)
+- [3. A Briefer History of JavaScript](#3-a-briefer-history-of-javascript)
+- [4. Why is it called a “Scripting Language” ?](#4-why-is-it-called-a-scripting-language-)
+- [5. Why the name JavaScript?](#5-why-the-name-javascript)
+- [6. What is ECMA Script, LiveScript?](#6-what-is-ecma-script-livescript)
+- [7. What is V8 Engine? What is Spider-Monkey?](#7-what-is-v8-engine-what-is-spider-monkey)
+- [8. What to do from here?](#8-what-to-do-from-here)
 
 # 1. Where is JavaScript used anyway?
 
@@ -51,7 +56,7 @@ and muscles of the body may be amazing in themselves, but without the brain,
 they‘re of no use. The brain commands the body parts to function according to
 desired outcomes.
 
-# What is JavaScript?
+# 2. What is JavaScript?
 
 JavaScript was initially created to make web pages “alive” and interactive
 (having complex animations, clickable buttons, popup menus, etc.).
@@ -85,7 +90,7 @@ run.
 
 In this aspect, JavaScript is very different from another language called Java.
 
-## 1.1 The definition:
+## 2.1. The definition:
 
 JavaScript® (often shortened to JS) is a lightweight, interpreted, or
 just-in-time compiled object-oriented language with first-class functions. While
@@ -98,7 +103,7 @@ programming) styles.
 
 ---
 
-### Explanation
+### 2.1.1. Explanation
 
 Let’s go over all those terms one-by-one:
 
@@ -107,73 +112,76 @@ simplicity) is a language that
 
 > 🧩 Explanation:
 
-# 2. Why is it called a “Scripting Language” ?
+# 3. A Briefer History of JavaScript
 
-JS is not interpreted like everybody thinks. Well, atleast not now.
+The first mainstream browser “Mosaic” was developed in Jan 1993, by Marc
+Andreessen for UNIX Systems. Later that year in September, it found its way on
+to Macintosh and Windows.
 
-Let‘s go back in time. During the early days of JavaScript, it used to be
-interpreted.
+But there was no JavaScript yet.
+
+Later on, Marc went about to co-found the company “Netscape”. And within a
+couple of years, The Netscape Navigator already had 80% of the browser market
+share.
+
+Marc realised that websites needed to be more dynamic in order to help withs
+
+In 1990, Sir Tim Berners Lee developed the first internet browser on a NeXT
+Computer System.
+
+But, nobody knew what the internet was back then.
+
+# How does JS run? Is it Interpreted or Compiled?
+
+Let‘s first understand the basic difference between an interpreted language and
+a compiled language.
 
 > 📚 Interpreted Language: A programming language, wherein code is executed line
-> by line. It‘s the exact opposite of a compiled language. Python is a famous
+> by line. The interpreter looks at every line, and if it‘s syntax is valid, it
+> will execute, and otherwise give a runtime error. Python is a famous
 > interpreted language.
 
 > 📚 Compiled Language: A programming Language, wherein code is converted into a
 > machine understandable code by a compiler and then executed by the system.
-> JAVA is a famous compiled language. Here the compiler converts the `.java`
-> code into a `.bin` file, which is then executed by the JVM (Java Virtual
-> Machine).
+> JAVA is a famous compiled language. The compiler converts the `.java` code
+> into a `.bin` file, which is then executed by the JVM (Java Virtual Machine).
 
-JavaScript is not a programming language in strict sense. Instead, it is a
-scripting language because it uses the browser to do the dirty work. If you
-command an image to be replaced by another one, JavaScript tells the browser to
-go do it. Because the browser actually does the work, you only need to pull some
-strings by writing some relatively easy lines of code. That’s what makes
-JavaScript an easy language to start with.
+JS was initially launched as an interpreted language. But today, it‘s a
+technology affecting every single human being on the planet, and the way JS runs
+in the browser has significantly changed. JavaScript is now universally
+JIT(Just-In-Time) compiled, either to bytecode (like Java and C#), or directly
+to machine code (like C and C++). And modern engines offer an optimization
+phase, similar to most traditional compiled languages.
 
-A scripting language, script language or extension language is a programming
-language that allows some control of a single or many software application(s).
-Languages chosen for scripting purposes are often much higher-level than the
-language used by the host application…
+V8 Engine, which runs on the Chrome Browser as well as the Node Environment
+compiles JavaScript directly to native machine code before executing it.
 
-In this case, the application is the browser. And about compilation:Scripts are
-often, but not always, interpreted from the source code or “semi-compiled” to
-bytecode which is interpreted, unlike the applications they are associated with,
-which are traditionally compiled to native machine code for the system on which
-they run
+Even the SpiderMonkey Engine (Firefox) includes a just-in-time compiler (JIT)
+that compiles JavaScript to machine code.
 
-But JS has matured considerably over the last few years, with advanced features
-such as lambdas, classes (for better or worse), destructuring, iterators and
-modules that bring its capabilities on par with most other modern languages. No
-longer restricted to the browser, is it also commonly found running standalone
-on the server under NodeJS.
-
-Javascript is now universally JIT compiled, either to bytecode (like Java and
-C#), or directly to machine code (like C and C++). And modern engines offer an
-optimization phase, similar to most traditional compiled languages.
-
-V8 (Chrome, Node) V8 compiles JavaScript directly to native machine code before
-executing it.
-
-Chakra Code (Edge) Chakra Core [can] do parallel JIT compilation…
-
-SpiderMonkey (Firefox) SpiderMonkey 38 includes a just-in-time compiler (JIT)
-that compiles JavaScript to machine code…
-
-The idea of a scripting language is one that instructs a host to carry out a
-series of actions (a lot like an actor reading from a script).
-
-Javascript tells a browser what to do and how to process things just the same
+JavaScript tells a browser what to do and how to process things just the same
 way that a shell script, php, or any other scripting language does for their
-respective hosts. “the same way that a shell script, php, or any other scripting
-language does for their respective hosts "
+respective hosts.
 
-# A Briefer History of JavaScript
+# 4. Why is it called a “Scripting Language” ?
 
-# 3. Why the name JavaScript?
+A scripting/extension language is a programming language that allows some
+control of a single (or many) software application(s). Languages chosen for
+scripting purposes are often much higher-level than the language used by the
+host application. The idea of a scripting language is one that instructs a host
+to carry out a series of actions (a lot like an actor reading from a script).
 
-# What is ECMA Script, LiveScript?
+In simpler terms, JavaScript is not a programming language in strict sense.
+Instead, it is a scripting language because it uses the browser to do the work.
+Eg.:- If you command an image to be replaced by another one, JavaScript tells
+the browser to go do it. And so, the programs written in this language are
+called scripts. They can be written right in a web page’s HTML and run
+automatically as the page loads.
 
-# What is V8 Engine? What is Spider-Monkey?
+# 5. Why the name JavaScript?
 
-# 4. What to do from here?
+# 6. What is ECMA Script, LiveScript?
+
+# 7. What is V8 Engine? What is Spider-Monkey?
+
+# 8. What to do from here?
