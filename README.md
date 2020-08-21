@@ -73,3 +73,7 @@ This said, this book is solely focused on :
    2. Developers who have worked for more than 3-4 Years on some other
       programming language, and now want to dive into the world of
       web-development.
+
+### Legend
+
+📚 - Definition 🧩 - Explanation 🎐 - Analogy 🚀 - Fun Fact
