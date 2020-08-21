@@ -124,7 +124,7 @@ Later on, Marc went about to co-found the company “Netscape”. And within a
 couple of years, The Netscape Navigator already had 80% of the browser market
 share.
 
-Marc realised that websites needed to be more dynamic in order to help withs
+Marc realised that websites needed to be more dynamic and that just HTML and CSS could not suffise that. Developers needed a glue language to add liveness and interactivity to websites.
 
 In 1990, Sir Tim Berners Lee developed the first internet browser on a NeXT
 Computer System.
