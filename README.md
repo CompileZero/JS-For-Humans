@@ -66,14 +66,16 @@ This said, this book is solely focused on :
 
 <!-- TODO: Add HTML CSS Links Here-->
 
+All said, this book is especially for:
+
 1. Beginner Devs:
    1. Students/Developers who have had minimal programming experience (probably
       just in school/college) and want to learn web development.
    2. Devs Who have some basic understanding of HTML & CSS, and want to start
       learning JS, but find it confusing.
 2. Intermediate Devs:
-   1. Developers who are familiar with Basic JavaScript Concepts, and have used
-      their coding skills to create some basic Interactive Web Pages.
+   1. Developers who are familiar with Basic JavaScript Concepts; have used
+      their coding skills to create some basic Interactive Web Pages, and now want to understand advanced level JavaScript.
    2. Developers who have worked for more than 3-4 Years on some other
       programming language, and now want to dive into the world of
       web-development.
