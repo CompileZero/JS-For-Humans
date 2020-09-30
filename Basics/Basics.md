@@ -3,6 +3,7 @@
   - [2.1. The definition:](#21-the-definition)
     - [2.1.1. Explanation](#211-explanation)
 - [3. A Briefer History of JavaScript](#3-a-briefer-history-of-javascript)
+- [How does JS run? Is it Interpreted or Compiled?](#how-does-js-run-is-it-interpreted-or-compiled)
 - [4. Why is it called a “Scripting Language” ?](#4-why-is-it-called-a-scripting-language-)
 - [5. Why the name JavaScript?](#5-why-the-name-javascript)
 - [6. What is ECMA Script, LiveScript?](#6-what-is-ecma-script-livescript)
@@ -11,7 +12,7 @@
 
 # 1. Where is JavaScript used anyway?
 
-I‘m sure you‘ve seen a Create-Account Page: ![Login UI Page](./media/UI_1.jpg)
+I‘m sure you‘ve seen a Create-Account Page, on any website: ![Login UI Page](./media/UI_1.jpg)
 
 In the above image:
 
@@ -46,15 +47,8 @@ Chrome for example):
       clicked.
 
 > ### 🎐 Analogy
->
 > #### If a web-page is compared to a human body, then:
-
-**HTML** is the skeletal system of the body. **CSS** is the muscles, skin, hair,
-(everything that makes the body attractive and not just a bunch of bones stuck
-together.) Finally, **JavaScript** is the brain of the body. The skeletal system
-and muscles of the body may be amazing in themselves, but without the brain,
-they‘re of no use. The brain commands the body parts to function according to
-desired outcomes.
+> **HTML** is the skeletal system of the body. **CSS** is the muscles, skin, hair, (everything that makes the body attractive and not just a bunch of bones stuck together.) Finally, **JavaScript** is the brain of the body. The skeletal system and muscles of the body may be amazing in themselves, but without the brain, they‘re of no use. The brain sends instructions and commands to the body parts to behave and function in a certain manner.
 
 # 2. What is JavaScript?
 
