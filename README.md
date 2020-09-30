@@ -15,7 +15,7 @@ already a Herculean task for me. One more language just to create a lame
 website?
 
 I battled with the initial JavaScript hiccups (Data Types, Variables,
-Conditions, Loops etc.).
+Conditionals, Loops etc.).
 
 Then those hiccups started turning into coughs.
 
@@ -23,8 +23,11 @@ I ran into terms like Object-Oriented, Multi Paradigm, Functional, Hoisting,
 Polymorphism etc, and it left my head spinning. (Trust me, it still does today).
 But the real problem wasn’t just that.
 
-I couldn’t find a single resource, that was directed at beginners, explained
-concepts in simple language, and then also took care of the advanced JavaScript
+I couldn’t find a single resource, that:
+1. Was directed at beginners, 
+2. Explained concepts in simple language,
+3. Provided a roadmap to go from a beginner to intermediate and then advanced JS Developer
+4. And finally also took care of the advanced and expert level JavaScript
 concepts.
 
 > ### _I thought maybe it’s time for yet another JavaScript Book._
