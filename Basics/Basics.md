@@ -20,15 +20,17 @@ This is what I feel about the future.
 
 In the future, I believe there would be only 2 languages that would be ruling the software-world: JavaScript & Python. (I know it's quite far-fetched, but just listen to my arguments.)
 
-Ofcourse, there are a multitude of languages used for hardware, education, medical sciences, military, and space research and many other domains. But, every software that the a non-technical "common man" uses, irrespective of its domain, would move to the cloud, and would use Machine Learning to make things easier and more automated.
+Ofcourse, there are a multitude of languages used for hardware programming, production & engineering, education, medical sciences, military, space research and many other domains. But, every software that the a non-technical "common man" uses, irrespective of its domain, would move to the cloud, and would use Machine Learning to make things easier and more automated.
 
 The world is moving towards a dcentralized, cloud-based, microservice architecture. Let me explain what that means.
 
 So, when you say that softwares would run on the cloud, this just means, that your browsers work as the Operating System for your software applications. For example, Microsoft Excel works on Windows 10 and MacOS Operating System. But Google Docs, runs inside the Chrome Browser. So, Chrome Browser becomes the Operating System for running a software like Google Docs.
 
-Since 2015, there are 100s (if not 1000s) of companies shifting their softwares on the web. In the future, I believe almost every software: from entertainment to education, from health to food, would run on the web, inside the browser.
+Since 2015, there are 100s (if not 1000s) of companies shifting moving their entire softwares to the cloud. In the future, I believe almost every software: from entertainment to education, from health to food, would run on the web, inside the browser.
 
 When this happens, there's going to be only 1 language that rules everything. And thats JavaScript (atleast for now).
+
+There are already a lot of JavaScript Frameworks, and new are coming up to make JavaScript Development easier for developers, and it does not make sense to develop a project using Vanilla (pure) JavaScript. But it's really important to understand the core concepts of JavaScript, so that you can pickup any JavaScript Framework now, or in the future, and quite easily catch up.
 
 # 2. Where is JavaScript used anyway?
 
