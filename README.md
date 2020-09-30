@@ -34,13 +34,13 @@ concepts.
 
 ---
 
-### `What is this all about?`
+### `So again, What is this all about?`
 
 Many people have a certain hatred towards programming. This hatred arises out of
 the fear of the unknown.
 
 10-20 Known Programming Languages, Thousands of non-understandable sentences,
-wrapping your head around 100-200 Basic Concepts in Computer Science.
+wrapping your head around 100-200 Concepts in Computer Science. (Which, by the way, is just the tip of the iceberg.)
 
 And then, just like that, some new technology comes around, and whatever was
 learned becomes redundant. Right?
@@ -52,14 +52,15 @@ they start programming.
 
 This said, this book is solely focused on :
 
-1. learning JavaScript
+1. Learning JavaScript
 2. Mastering the fundamentals of how JavaScript works
-3. Learning the Advanced Concepts
-4. Becoming one of the top JS Developers in the world.
+3. Providing a roadmap of how to go from a beginner, to intermediate, to an advanced JS Developer.
+4. Learning the Advanced Concepts
+5. Becoming one of the top JS Developers in the world.
 
 ## Who is this book for?
 
-#### This book assumes that you are at least familiar with concepts of HTML & CSS (You wouldn’t have come across otherwise). Anyways, if by chance you don’t know HTML & CSS, I would recommend you start by learning those concepts
+#### This book assumes that you are at least familiar with concepts of HTML & CSS (You probably wouldn’t have come across this book otherwise). Anyways, if by chance you don’t know HTML & CSS, I would recommend you start by learning those technologies first, and then leave everything to this book.
 
 ##### P.S.: If you‘re just looking out to become a backend developer, then maybe you could do fine just learning JavaScript (although I don‘t recommend this at all. Get some hands-on with HTML & CSS. They are quite interesting :P)
 
