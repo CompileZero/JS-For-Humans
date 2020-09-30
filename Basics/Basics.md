@@ -1,16 +1,36 @@
-- [1. Where is JavaScript used anyway?](#1-where-is-javascript-used-anyway)
-- [2. What is JavaScript?](#2-what-is-javascript)
-  - [2.1. The definition:](#21-the-definition)
-    - [2.1.1. Explanation](#211-explanation)
-- [3. A Briefer History of JavaScript](#3-a-briefer-history-of-javascript)
-- [How does JS run? Is it Interpreted or Compiled?](#how-does-js-run-is-it-interpreted-or-compiled)
-- [4. Why is it called a “Scripting Language” ?](#4-why-is-it-called-a-scripting-language-)
-- [5. Why the name JavaScript?](#5-why-the-name-javascript)
-- [6. What is ECMA Script, LiveScript?](#6-what-is-ecma-script-livescript)
-- [7. What is V8 Engine? What is Spider-Monkey?](#7-what-is-v8-engine-what-is-spider-monkey)
-- [8. What to do from here?](#8-what-to-do-from-here)
+- [1. Why to Learn JavaScript?](#1-why-to-learn-javascript)
+    - [1.0.1. This is one of the very important questions that need to be answered before diving in.](#101-this-is-one-of-the-very-important-questions-that-need-to-be-answered-before-diving-in)
+- [2. Where is JavaScript used anyway?](#2-where-is-javascript-used-anyway)
+- [3. What is JavaScript?](#3-what-is-javascript)
+  - [3.1. The definition:](#31-the-definition)
+    - [3.1.1. Explanation](#311-explanation)
+- [4. A Briefer History of JavaScript](#4-a-briefer-history-of-javascript)
+- [5. How does JS run? Is it Interpreted or Compiled?](#5-how-does-js-run-is-it-interpreted-or-compiled)
+- [6. Why is it called a “Scripting Language” ?](#6-why-is-it-called-a-scripting-language-)
+- [7. Why the name JavaScript?](#7-why-the-name-javascript)
+- [8. What is ECMA Script, LiveScript?](#8-what-is-ecma-script-livescript)
+- [9. What is V8 Engine? What is Spider-Monkey?](#9-what-is-v8-engine-what-is-spider-monkey)
+- [10. What to do from here?](#10-what-to-do-from-here)
 
-# 1. Where is JavaScript used anyway?
+# 1. Why to Learn JavaScript?
+
+### 1.0.1. This is one of the very important questions that need to be answered before diving in.
+
+This is what I feel about the future.
+
+In the future, I believe there would be only 2 languages that would be ruling the software-world: JavaScript & Python. (I know it's quite far-fetched, but just listen to my arguments.)
+
+Ofcourse, there are a multitude of languages used for hardware, education, medical sciences, military, and space research and many other domains. But, every software that the a non-technical "common man" uses, irrespective of its domain, would move to the cloud, and would use Machine Learning to make things easier and more automated.
+
+The world is moving towards a dcentralized, cloud-based, microservice architecture. Let me explain what that means.
+
+So, when you say that softwares would run on the cloud, this just means, that your browsers work as the Operating System for your software applications. For example, Microsoft Excel works on Windows 10 and MacOS Operating System. But Google Docs, runs inside the Chrome Browser. So, Chrome Browser becomes the Operating System for running a software like Google Docs.
+
+Since 2015, there are 100s (if not 1000s) of companies shifting their softwares on the web. In the future, I believe almost every software: from entertainment to education, from health to food, would run on the web, inside the browser.
+
+When this happens, there's going to be only 1 language that rules everything. And thats JavaScript (atleast for now).
+
+# 2. Where is JavaScript used anyway?
 
 I‘m sure you‘ve seen a Create-Account Page, on any website: ![Login UI Page](./media/UI_1.jpg)
 
@@ -50,7 +70,7 @@ Chrome for example):
 > #### If a web-page is compared to a human body, then:
 > **HTML** is the skeletal system of the body. **CSS** is the muscles, skin, hair, (everything that makes the body attractive and not just a bunch of bones stuck together.) Finally, **JavaScript** is the brain of the body. The skeletal system and muscles of the body may be amazing in themselves, but without the brain, they‘re of no use. The brain sends instructions and commands to the body parts to behave and function in a certain manner.
 
-# 2. What is JavaScript?
+# 3. What is JavaScript?
 
 JavaScript was initially created to make web pages “alive” and interactive
 (having complex animations, clickable buttons, popup menus, etc.).
@@ -84,7 +104,7 @@ run.
 
 In this aspect, JavaScript is very different from another language called Java.
 
-## 2.1. The definition:
+## 3.1. The definition:
 
 JavaScript® (often shortened to JS) is a lightweight, interpreted, or
 just-in-time compiled object-oriented language with first-class functions. While
@@ -97,7 +117,7 @@ programming) styles.
 
 ---
 
-### 2.1.1. Explanation
+### 3.1.1. Explanation
 
 Let’s go over all those terms one-by-one:
 
@@ -106,7 +126,7 @@ simplicity) is a language that
 
 > 🧩 Explanation:
 
-# 3. A Briefer History of JavaScript
+# 4. A Briefer History of JavaScript
 
 The first mainstream browser “Mosaic” was developed in Jan 1993, by Marc
 Andreessen for UNIX Systems. Later that year in September, it found its way on
@@ -140,7 +160,7 @@ Computer System.
 
 But, nobody knew what the internet was back then.
 
-# How does JS run? Is it Interpreted or Compiled?
+# 5. How does JS run? Is it Interpreted or Compiled?
 
 Let‘s first understand the basic difference between an interpreted language and
 a compiled language.
@@ -172,7 +192,7 @@ JavaScript tells a browser what to do and how to process things just the same
 way that a shell script, php, or any other scripting language does for their
 respective hosts.
 
-# 4. Why is it called a “Scripting Language” ?
+# 6. Why is it called a “Scripting Language” ?
 
 A scripting/extension language is a programming language that allows some
 control of a single (or many) software application(s). Languages chosen for
@@ -187,10 +207,11 @@ the browser to go do it. And so, the programs written in this language are
 called scripts. They can be written right in a web page’s HTML and run
 automatically as the page loads.
 
-# 5. Why the name JavaScript?
+# 7. Why the name JavaScript?
 
-# 6. What is ECMA Script, LiveScript?
+# 8. What is ECMA Script, LiveScript?
 
-# 7. What is V8 Engine? What is Spider-Monkey?
+# 9. What is V8 Engine? What is Spider-Monkey?
 
-# 8. What to do from here?
+# 10. What to do from here?
+
