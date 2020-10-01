@@ -1,5 +1,6 @@
 - [1. Why to Learn JavaScript?](#1-why-to-learn-javascript)
-    - [1.0.1. This is one of the very important questions that need to be answered before diving in.](#101-this-is-one-of-the-very-important-questions-that-need-to-be-answered-before-diving-in)
+    - [Why is JavaScript the future?](#why-is-javascript-the-future)
+  - [This is an important questions that need to be answered before diving in.](#this-is-an-important-questions-that-need-to-be-answered-before-diving-in)
 - [2. Where is JavaScript used anyway?](#2-where-is-javascript-used-anyway)
 - [3. What is JavaScript?](#3-what-is-javascript)
   - [3.1. The definition:](#31-the-definition)
@@ -14,13 +15,13 @@
 
 # 1. Why to Learn JavaScript?
 
-### 1.0.1. This is one of the very important questions that need to be answered before diving in.
+### Why is JavaScript the future?
 
-This is what I feel about the future.
+## This is an important questions that need to be answered before diving in.
 
 In the future, I believe there would be only 2 languages that would be ruling the software-world: JavaScript & Python. (I know it's quite far-fetched, but just listen to my arguments.)
 
-Ofcourse, there are a multitude of languages used for hardware programming, production & engineering, education, medical sciences, military, space research and many other domains. But, every software that the a non-technical "common man" uses, irrespective of its domain, would move to the cloud, and would use Machine Learning to make things easier and more automated.
+Ofcourse, there are a multitude of languages used for hardware programming, production & engineering, education, medical sciences, military, space research and many other domains. But, every software that a non-technical "common man" uses, irrespective of its domain, would move to the cloud, and would use Machine Learning to make things easier and more automated.
 
 The world is moving towards a dcentralized, cloud-based, microservice architecture. Let me explain what that means.
 
