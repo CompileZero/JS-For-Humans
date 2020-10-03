@@ -109,6 +109,7 @@ In this aspect, JavaScript is very different from another language called Java.
 
 ## 3.1. The definition:
 
+JavaScript is a high-level, interpreted or JIT compiled, prototype-based, multi-paradigm dynamic language with a non-blocking event loop concurrency model.
 JavaScript® (often shortened to JS) is a lightweight, interpreted, or
 just-in-time compiled object-oriented language with first-class functions. While
 it is well-known as the scripting language for Web pages, many non-browser
