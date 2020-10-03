@@ -7,6 +7,7 @@
   - [camelCase vs kebab-case?](#camelcase-vs-kebab-case)
   - [What's a boilerplate project/code?](#whats-a-boilerplate-projectcode)
   - [Meta HTML](#meta-html)
+  - [`Script`, `Style` and `Link`](#script-style-and-link)
 # Is HTML a language?:
 
 You don't run HTML. It's like English Language. English isn't a programming language, and similarly HTML is not a real programming language. It's just content and pictures on a page. You just state what you want.
@@ -112,3 +113,7 @@ A boilerplate code/project is a set of lines of code which we copy-paste from th
 </html>
 ```
 
+## `Script`, `Style` and `Link`
+
+`<script></script>, <style></style>, and <link />`
+We're about to talk about CSS and JavaScript, but know they have the above three tags, `script, style, and link` are used for them, script being used for JavaScript and the latter two for CSS.
