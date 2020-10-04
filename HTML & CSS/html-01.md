@@ -1,3 +1,4 @@
+- [Resource Used](#resource-used)
 - [Is HTML a language?:](#is-html-a-language)
 - [Important HTML Tags:](#important-html-tags)
 - [Attributes](#attributes)
@@ -8,6 +9,9 @@
   - [What's a boilerplate project/code?](#whats-a-boilerplate-projectcode)
   - [Meta HTML](#meta-html)
   - [`Script`, `Style` and `Link`](#script-style-and-link)
+# Resource Used
+
+[Brian Holt's Notes on Web Dev](https://btholt.github.io/intro-to-web-dev-v2/)
 # Is HTML a language?:
 
 You don't run HTML. It's like English Language. English isn't a programming language, and similarly HTML is not a real programming language. It's just content and pictures on a page. You just state what you want.
