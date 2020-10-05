@@ -2,6 +2,11 @@
 - [Specificity](#specificity)
   - [Adding 2 classes to a selector](#adding-2-classes-to-a-selector)
     - [Another Example](#another-example)
+- [ID's and !important](#ids-and-important)
+  - [ID's](#ids)
+- [Pseudo Class Selectors:](#pseudo-class-selectors)
+- [PseudoElements](#pseudoelements)
+- [Wild-Card Selector](#wild-card-selector)
 # The Cascade
 
 ```css
@@ -80,3 +85,93 @@ Consider this:
 ```
 
 The first selector, `h1.main-brand` is how you select both a tag and a class at the same time. As you may imagine, this is more specific than the third selector, `.main-brand`. If you remember our shortcut trick, the first selector would be `11`, the second would be `20`, and the last would be `10`, making the second selector the most specific, and indeed it is. The first selector isn't a good idea to do; using a tag and a class is usually a bad idea and means you're likely doing something weird in your code. I'm just showing you because it does happen in a lot in existing code.
+
+# ID's and !important
+
+## ID's
+
+```css
+<style type="text/css">
+  #site-brand {
+    color: red;
+  }
+
+  h1.nav-head.nav-main.other-useful-class {
+    /*
+     * this class is way too specific; never have a class selector so long
+     * it's ridiculous and just to illustrate a point
+     */
+    color: green;
+  }
+</style>
+<h1 id="site-brand" class="nav-head nav-main other-useful-class">The Brand of my Website</h1>
+```
+
+Don't use these. Don't use these. Don't use these.
+
+Because the specificity of ID's is very high. Consider this, if a tag is `1`, a class is a `10`, then an ID is `100`. And even further, an `!important` tag has the specificity of `1000`.
+
+# Pseudo Class Selectors:
+
+A typical example:
+
+```css
+<style>
+  .hover-example {
+    width: 100px;
+    height: 100px;
+    background-color: limegreen;
+    color: white;
+  }
+  .hover-example:hover {
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+  }
+</style>
+<div class="hover-example">Hover your mouse over me</div>
+```
+> ** Its specificity is similar to that of a class.
+
+
+[The best Link for Pseudo Class Selectors](https://css-tricks.com/pseudo-class-selectors/)
+
+# PseudoElements
+
+the basic idea is that you can CSS to add additional content/stylings to the HTML.
+
+Typical Example: ::before
+
+```css
+div::before {
+  content: "before";
+}
+div::after {
+  content: "after";
+}
+```
+
+This happens inside the HTML:
+
+```html
+<div>
+  before
+  <!-- Rest of stuff inside the div -->
+  after
+</div>
+
+```
+
+[PseudoElements](https://css-tricks.com/almanac/selectors/a/after-and-before/)
+
+# Wild-Card Selector
+
+```css
+* {
+    font-weight: bold;
+}
+
+```
+
+`*` is called a `wild-card selector`. This applies the rule to everything inside the HTML. It's specificity is `1`.
+
