@@ -1,3 +1,3 @@
 JavaScript Notes:
 
-Beginning
+Beginning with JavaScript
