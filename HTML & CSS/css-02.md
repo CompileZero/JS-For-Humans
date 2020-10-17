@@ -2,11 +2,13 @@
 - [Specificity](#specificity)
   - [Adding 2 classes to a selector](#adding-2-classes-to-a-selector)
     - [Another Example](#another-example)
+    - [Conclusion:](#conclusion)
 - [ID's and !important](#ids-and-important)
   - [ID's](#ids)
 - [Pseudo Class Selectors:](#pseudo-class-selectors)
 - [PseudoElements](#pseudoelements)
 - [Wild-Card Selector](#wild-card-selector)
+
 # The Cascade
 
 ```css
@@ -21,7 +23,9 @@
 </style>
 <h1 class="title">Cool Title</h1>
 ```
+
 Result:
+
 <h1 class="title" style="color:green">Cool Title</h1>
 
 > The above is a green title
@@ -86,6 +90,28 @@ Consider this:
 
 The first selector, `h1.main-brand` is how you select both a tag and a class at the same time. As you may imagine, this is more specific than the third selector, `.main-brand`. If you remember our shortcut trick, the first selector would be `11`, the second would be `20`, and the last would be `10`, making the second selector the most specific, and indeed it is. The first selector isn't a good idea to do; using a tag and a class is usually a bad idea and means you're likely doing something weird in your code. I'm just showing you because it does happen in a lot in existing code.
 
+Similarly, `.animal .dog` would mean that the proerty applies to a tag with a class of `dog`, which is present inside the the class of `animal`.
+
+### Conclusion:
+
+```html
+<style>
+  .animal.dog {
+    color: green;
+  }
+
+  .animal .dog {
+    color: red;
+  }
+</style>
+
+<body>
+  <div class="animal">
+    <div></div>
+  </div>
+</body>
+```
+
 # ID's and !important
 
 ## ID's
@@ -131,8 +157,8 @@ A typical example:
 </style>
 <div class="hover-example">Hover your mouse over me</div>
 ```
-> ** Its specificity is similar to that of a class.
 
+> \*\* Its specificity is similar to that of a class.
 
 [The best Link for Pseudo Class Selectors](https://css-tricks.com/pseudo-class-selectors/)
 
@@ -159,7 +185,6 @@ This happens inside the HTML:
   <!-- Rest of stuff inside the div -->
   after
 </div>
-
 ```
 
 [PseudoElements](https://css-tricks.com/almanac/selectors/a/after-and-before/)
@@ -168,10 +193,8 @@ This happens inside the HTML:
 
 ```css
 * {
-    font-weight: bold;
+  font-weight: 400;
 }
-
 ```
 
 `*` is called a `wild-card selector`. This applies the rule to everything inside the HTML. It's specificity is `1`.
-
